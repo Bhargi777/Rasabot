@@ -1,0 +1,98 @@
+version: "3.1"
+rules:
+
+- rule: Greet user anytime
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- rule: Say goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- rule: Answer bot challenge
+  steps:
+    - intent: bot_challenge
+    - action: utter_iamabot
+
+- rule: Respond to compliment
+  steps:
+    - intent: compliment_bot
+    - action: utter_compliment_response
+    - action: utter_flirt_with_user
+
+- rule: Respond to insult
+  steps:
+    - intent: insult_bot
+    - action: utter_insult_response
+
+- rule: Handle affirmation
+  steps:
+    - intent: affirm
+    - action: utter_affirm
+
+- rule: Handle denial
+  steps:
+    - intent: deny
+    - action: utter_deny
+
+- rule: Give opinion
+  steps:
+    - intent: ask_bot_opinion
+    - action: utter_opinion
+
+- rule: Respond when user flirts back
+  steps:
+    - intent: user_flirts_back
+    - action: utter_user_blushing
+
+- rule: User is bored
+  steps:
+    - intent: user_bored
+    - action: utter_user_bored
+    - action: utter_make_dirty_joke
+
+- rule: Give a pickup line
+  steps:
+    - intent: request_pickup_line
+    - action: utter_request_pickup_line
+
+- rule: Handle user confusion
+  steps:
+    - intent: user_confused
+    - action: utter_user_confused
+
+- rule: User asks for more
+  steps:
+    - intent: user_asks_for_more
+    - action: utter_user_asks_for_more
+    - action: utter_tease_user
+- rule: Respond when user flirts with bot
+  steps:
+    - intent: flirt_with_user
+    - action:  utter_user_flirts_back
+
+- rule: Tell dirty joke when asked
+  steps:
+    - intent: make_dirty_joke
+    - action: utter_make_dirty_joke
+
+- rule: Tease the user
+  steps:
+    - intent: tease_user
+    - action: utter_tease_user
+
+- rule: React when user blushes
+  steps:
+    - intent: user_blushing
+    - action: utter_user_blushing
+- rule: User asks for more jokes/flirts
+  steps:
+    - intent: user_asks_for_more
+    - action: utter_user_asks_for_more
+    - action: utter_tease_user
+- rule: Use local LLM when bot is unsure
+  steps:
+    - intent: nlu_fallback
+    - action: action_llm_local_fallback

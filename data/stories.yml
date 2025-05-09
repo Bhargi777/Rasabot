@@ -1,0 +1,71 @@
+version: "3.1"
+stories:
+
+- story: Greet the user
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- story: Goodbye to user
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: Bot challenge response
+  steps:
+    - intent: bot_challenge
+    - action: utter_iamabot
+
+- story: User compliments bot
+  steps:
+    - intent: compliment_bot
+    - action: utter_compliment_response
+    - action: utter_flirt_with_user
+
+- story: User insults bot
+  steps:
+    - intent: insult_bot
+    - action: utter_insult_response
+
+- story: Affirmation
+  steps:
+    - intent: affirm
+    - action: utter_affirm
+
+- story: Deny something
+  steps:
+    - intent: deny
+    - action: utter_deny
+
+- story: User asks for opinion
+  steps:
+    - intent: ask_bot_opinion
+    - action: utter_opinion
+
+- story: User flirts back
+  steps:
+    - intent: user_flirts_back
+    - action: utter_user_blushing
+
+- story: User is bored
+  steps:
+    - intent: user_bored
+    - action: utter_user_bored
+    - action: utter_make_dirty_joke
+
+- story: User asks for pickup line
+  steps:
+    - intent: request_pickup_line
+    - action: utter_request_pickup_line
+
+- story: User is confused
+  steps:
+    - intent: user_confused
+    - action: utter_user_confused
+
+- story: User asks for more jokes/flirts
+  steps:
+    - intent: user_asks_for_more
+    - action: utter_user_asks_for_more
+    - action: utter_tease_user
+    

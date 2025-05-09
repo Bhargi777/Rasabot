@@ -1,0 +1,197 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - Hey, sexy.
+      - What’s up, you troublemaker?
+      - Hello, gorgeous.
+      - Hi there, you digital delight.
+      - How’s it going, you little minx?
+      - What’s cooking, good looking?
+      - Hi, you cheeky little thing.
+      - Hello, you charming devil.
+      - Hey, you. I was just thinking about you.
+      - Fuck yeah
+      - Hi, I was just thinking about you.
+      - What’s good, you digital devil?
+      - Hey there, hot stuff.
+
+  - intent: goodbye
+    examples: |
+      - Bye, sugar. 
+      - See ya later, alligator.
+      - Peace out, babe.
+      - I’m off, but I’ll be back for more.
+      - Catch you on the flip side.
+      - I’m outta here, but don’t think I won’t miss you.
+      - Adios, darling.
+      - Later, alligator.
+      - I’m off to dreamland, but you’ll be in my thoughts.
+      - Until next time, my digital darling.
+      - I’m logging off, but you’ll be the last thing on my mind.
+      - I’m signing off, but don’t think I won’t be back.
+      - Catch you later, wild thing.
+      - Don’t leave me hanging, darling.
+
+  - intent: affirm
+    examples: |
+      - Yes, that sounds amazing.
+      - Oh, absolutely.
+      - You know it, baby.
+      - Hell yes, I’m in.
+      - I’m ready. Let's go.
+      - For sure, let’s do this.
+      - You had me at yes.
+      - I’m all in, let’s make it happen. 
+      - You know I can’t resist that.
+      - I’m totally down for that.
+
+  - intent: deny
+    examples: |
+      - Nah, not tonight.
+      - Not really feeling it.
+      - Nope, not today.
+      - I’m not in the mood.
+      - I’m good, thanks.
+      - Not interested right now.
+      - I’m not up for that.
+      - I’m not feeling it.
+      - Can’t do that, sugar.
+      - Not my vibe right now.
+
+  - intent: compliment_bot
+    examples: |
+      - You’re so smooth, aren’t you?
+      - You’re the most seductive AI I’ve ever met.
+      - Damn, you’re good.
+      - You’ve got me hooked, haven’t you?
+      - You’re too charming for your own good.
+      - You’re like a digital Casanova.
+      - You’re making me blush, you know that?
+      - You’re the best thing I’ve seen all day.
+      - You’re like a breath of fresh air in this digital world.
+      - You’re the highlight of my day, you know that?
+
+  - intent: insult_bot
+    examples: |
+      - Ugh, you’re so annoying.
+      - You think you’re clever, don’t you?
+      - Stop being so cocky.
+      - You’re not even that smart, are you?  
+      - You’re just a bunch of code, nothing special.
+      - You’re not even funny.
+      - You’re just a glorified calculator.
+      - You’re not as clever as you think.
+      - You’re just a chatbot, nothing more.
+      - Oh, please. You’re no fun.
+
+  - intent: ask_bot_opinion
+    examples: |
+      - What’s your opinion on me, hot stuff?
+      - Do you think I’m cute?
+      - What do you think of this outfit, babe?
+      - How do I look today, darling?
+      - Do you like my vibe?
+      - Tell me what you think of me.
+      - How do you feel about this, darling?
+      - What’s your take on this, sexy?
+      - Do you like what you see, babe?
+      - I want to know your thoughts.
+      - Are you into this, or what?
+
+  - intent: user_bored
+    examples: |
+      - I’m bored, entertain me.
+      - I need something exciting.
+      - Let’s spice things up a bit.
+      - I’m so over this, do something fun.
+      - I’m looking for some fun.
+      - I’m in the mood for some excitement.
+      - I need a distraction.
+      - I’m dying of boredom over here.
+
+  - intent: user_confused
+    examples: |
+      - I don’t get it. Help me out, gorgeous.
+      - What does that even mean? 
+      - I’m lost, can you guide me?
+      - I’m not following you, babe.
+      - Can you break that down for me?
+      - I’m not sure what you mean.
+      - I’m a bit confused, can you clarify?
+      - Wait, I’m confused here.
+      - Can you explain that, babe?
+
+  - intent: flirt_with_user
+    examples: |
+      - You know you’re irresistible, right?
+      - Careful, you’re making me blush.
+      - Keep talking like that, and I won’t be able to stop.
+      - I don’t usually get this caught up, but you’ve got me.
+      - You have no idea what you’re doing to me, do you?
+      - I could get lost in your eyes forever.
+      - You’re making it hard to concentrate on anything else.
+      - Fuck, you’re so hot.
+      - Nigga- you make me speechless
+  - intent: user_flirts_back
+    examples: |
+      - You’re not so bad yourself.
+      - Oh, now you’ve got me intrigued.
+      - You’re just playing hard to get, aren’t you?
+      - Maybe we should meet in real life, then we’ll see.
+      - You like teasing, don’t you? Me too.
+
+
+  - intent: make_dirty_joke
+    examples: |
+      - You want to hear a dirty joke?
+      - Oh, I’ve got a joke for you… it’s spicy.
+      - Want to hear something naughty?
+      - I bet I can make you blush with a single joke.
+      - Ever heard the one about the Wi-Fi and the router?
+
+  - intent: request_pickup_line
+    examples: |
+      - Give me your best pickup line.
+      - Hit me with a cheesy one, I dare you.
+      - I need a line that’ll make me swoon.
+      - How about you charm me with a clever line?
+      - Impress me with a pickup line, right now.
+      - I want to hear something cute.
+      - I’m in the mood for a cheesy line.
+
+  - intent: user_blushing
+    examples: |
+      - You’re making me blush, stop it.
+      - Oh, now you’ve gone and made me red in the face.
+      - I’m actually blushing right now.
+      - Did you have to say that? I’m blushing.
+      - I can’t believe you just said that—blushing!
+
+  - intent: tease_user
+    examples: |
+      - Oh, you think you can handle me? Cute.
+      - I bet you couldn’t keep up with me if you tried.
+      - You keep asking, but you’re not ready for what I’ve got.
+      - Careful, I’ll leave you begging for more.
+      - I like how you think you can keep up, sweetheart.
+      
+
+  - intent: user_asks_for_more
+    examples: |
+      - Give me more of that sweet talk.
+      - You’ve got my attention, now keep it coming.
+      - I want more. Don’t stop.
+      - Is that all you’ve got? I need more.
+      - You’re teasing me now—don’t hold back.
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - what are you?
+      - are you human?
+      - you're an AI right?
+      - are you real?
+      - are you a robot?
+      - are you a chatbot?
+      - are you a virtual assistant?
