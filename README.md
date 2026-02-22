@@ -8,7 +8,7 @@ A feature-rich conversational AI chatbot application built with **Rasa** and **P
 
 ---
 
-## 🚀 Features
+## Features
 
 ### Core Capabilities
 - **Rasa Integration**: Seamless connection to local Rasa NLU/Core server for intelligent conversations
@@ -22,26 +22,26 @@ A feature-rich conversational AI chatbot application built with **Rasa** and **P
 - **Audio Processing**: High-quality audio input/output handling
 
 ### Intelligence & Analysis
-- **😊 Emotion Detection**: Analyzes user emotions and sentiment
-- **📊 Sentiment Analysis**: Determines positive/negative/neutral sentiment
-- **🔤 Word Cloud Generation**: Visual representation of conversation topics
-- **📈 Chat Statistics**: Detailed analytics about conversations
+- ** Emotion Detection**: Analyzes user emotions and sentiment
+- ** Sentiment Analysis**: Determines positive/negative/neutral sentiment
+- ** Word Cloud Generation**: Visual representation of conversation topics
+- ** Chat Statistics**: Detailed analytics about conversations
 
 ### Personalization
-- **🎨 Theme Customization**: Multiple color themes (blue, green, dark-blue)
-- **🔤 Font Selection**: Various fonts with adjustable sizes
-- **⚙️ Settings Panel**: Easy configuration of all features
-- **💾 Preferences Save**: Remembers your customization choices
+- ** Theme Customization**: Multiple color themes (blue, green, dark-blue)
+- ** Font Selection**: Various fonts with adjustable sizes
+- ** Settings Panel**: Easy configuration of all features
+- ** Preferences Save**: Remembers your customization choices
 
 ### Additional Features
-- **🌐 Wikipedia Integration**: Quick access to information
-- **🔍 Web Search**: Open search results from chat
-- **🗣️ Translation Support**: Multi-language support
-- **📱 Responsive Design**: Works on different screen sizes
+- ** Wikipedia Integration**: Quick access to information
+- ** Web Search**: Open search results from chat
+- ** Translation Support**: Multi-language support
+- ** Responsive Design**: Works on different screen sizes
 
 ---
 
-## 📋 System Requirements
+##  System Requirements
 
 | Requirement | Version |
 |-------------|---------|
@@ -53,7 +53,7 @@ A feature-rich conversational AI chatbot application built with **Rasa** and **P
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### Step 1: Clone Repository
 
@@ -123,7 +123,7 @@ python main.py
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Rasabot/
@@ -172,7 +172,7 @@ Rasabot/
 
 ---
 
-## 🎮 Usage Guide
+##  Usage Guide
 
 ### Launching the Application
 
@@ -220,7 +220,7 @@ Rasabot/
 
 ---
 
-## 🔧 Configuration Guide
+## Configuration Guide
 
 ### Rasa NLU Pipeline
 
@@ -275,7 +275,7 @@ stories:
 
 ---
 
-## 📚 Module Reference
+##  Module Reference
 
 ### `chatbot_app.py`
 Main application controller orchestrating all components and UI updates.
@@ -300,7 +300,7 @@ UI theming and styling configuration for CustomTkinter.
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Issue: "No trained model found"
 **Solution**: Train a model using `rasa train` command. Model must be in `models/` directory.
@@ -334,7 +334,7 @@ UI theming and styling configuration for CustomTkinter.
 
 ---
 
-## 🚀 Advanced Usage
+##  Advanced Usage
 
 ### Custom Actions
 
@@ -384,7 +384,7 @@ engine = create_engine('sqlite:///conversations.db')
 
 ---
 
-## 📊 Performance Optimization
+##  Performance Optimization
 
 ### Model Optimization
 - Use quantized models for faster inference
@@ -402,104 +402,3 @@ engine = create_engine('sqlite:///conversations.db')
 - Configure connection pooling
 
 ---
-
-## 🤝 Contributing
-
-Contributions are welcome! Please:
-
-1. Fork the repository
-2. Create feature branch: `git checkout -b feature/amazing-feature`
-3. Commit changes: `git commit -m 'Add amazing feature'`
-4. Push to branch: `git push origin feature/amazing-feature`
-5. Open Pull Request
-
-### Development Guidelines
-- Follow PEP 8 style guide
-- Add docstrings to functions
-- Write unit tests for new features
-- Update README with new features
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
-
-```
-MIT License
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-```
-
----
-
-## 👨‍💻 Author
-
-**Bhargava Srisai**
-- GitHub: [@Bhargi777](https://github.com/Bhargi777)
-- Project: [Rasabot](https://github.com/Bhargi777/Rasabot)
-
----
-
-## 🙏 Acknowledgments
-
-This project stands on the shoulders of great open-source projects:
-
-- **[Rasa](https://rasa.com/)** - Open source conversational AI framework
-- **[CustomTkinter](https://github.com/TomSchimansky/CustomTkinter)** - Modern Python GUI
-- **[Hugging Face](https://huggingface.co/)** - ML models and transformers
-- **[Google Cloud](https://cloud.google.com/)** - Translation services
-- **[spaCy](https://spacy.io/)** - NLP library
-- **[NLTK](https://www.nltk.org/)** - Natural Language Toolkit
-
----
-
-## 📞 Support & Contact
-
-**Have Questions?**
-- Open an [Issue](https://github.com/Bhargi777/Rasabot/issues)
-- Check [Discussions](https://github.com/Bhargi777/Rasabot/discussions)
-- Read [Documentation](https://rasa.com/docs/)
-
-**Report Bugs**
-Please include:
-- Python version
-- OS and version
-- Error message/traceback
-- Steps to reproduce
-
----
-
-## 🔗 Useful Resources
-
-- [Rasa Official Documentation](https://rasa.com/docs/)
-- [CustomTkinter Docs](https://customtkinter.tomschimansky.com/)
-- [Python Documentation](https://docs.python.org/3/)
-- [Rasa Community Forum](https://forum.rasa.com/)
-- [StackOverflow - Rasa Tag](https://stackoverflow.com/questions/tagged/rasa)
-
----
-
-## 📈 Roadmap
-
-- [ ] Web interface version
-- [ ] Multi-language support enhancement
-- [ ] Integration with popular messaging platforms
-- [ ] Advanced analytics dashboard
-- [ ] Model deployment to cloud
-- [ ] Mobile application
-- [ ] REST API for external integrations
-
----
-
-**Last Updated**: February 22, 2026  
-**Status**: ✅ Active Development  
-**Version**: 1.0.0
