@@ -1,9 +1,5 @@
 # RasaBot - Advanced Conversational AI Chatbot
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue)
-![Rasa](https://img.shields.io/badge/Rasa-3.x-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-green)
-
 A feature-rich conversational AI chatbot application built with **Rasa** and **Python**, featuring a modern graphical user interface using CustomTkinter. The application includes voice input, text-to-speech, emotion detection, sentiment analysis, and real-time interactions with a locally running Rasa server.
 
 ---
@@ -17,8 +13,8 @@ A feature-rich conversational AI chatbot application built with **Rasa** and **P
 - **Conversation History**: Maintains context across chat sessions
 
 ### Audio Features
-- **🎤 Voice Input**: Speech-to-text functionality using microphone input
-- **🔊 Text-to-Speech**: Read bot responses aloud (toggleable in settings)
+- ** Voice Input**: Speech-to-text functionality using microphone input
+- ** Text-to-Speech**: Read bot responses aloud (toggleable in settings)
 - **Audio Processing**: High-quality audio input/output handling
 
 ### Intelligence & Analysis
@@ -197,13 +193,13 @@ Rasabot/
 - View bot response in chat window
 
 #### Voice Chat
-- Click the **🎤 Microphone** button
+- Click the ** Microphone** button
 - Speak your message clearly
 - Release to send
 - TTS response plays automatically (if enabled)
 
 #### Settings Panel
-1. Click **⚙️ Settings** button
+1. Click ** Settings** button
 2. Configure:
    - **Theme**: Choose color scheme
    - **Font**: Select font family and size
