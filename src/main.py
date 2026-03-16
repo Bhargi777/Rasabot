@@ -1,7 +1,6 @@
 import tkinter as tk
 import customtkinter as ctk
-from chatbot_app import AwesomeChatbotApp
-import rasa.core.agent as agent
+from src.chatbot_app import AwesomeChatbotApp
 import asyncio
 import os
 
@@ -26,11 +25,16 @@ def main():
         latest_model = None
     
     if not latest_model:
-        show_error("Model not found", "No trained Rasa model found in 'models' directory.")
+        show_error("Model not found", "No trained Rasa model found in 'models' directory.\n\nPlease train a model using 'rasa train' command.")
         return
     
-    # Load Rasa agent
-    rasa_agent = agent.Agent.load(latest_model)
+    # Try to load Rasa agent, show error if it fails
+    try:
+        import rasa.core.agent as agent
+        rasa_agent = agent.Agent.load(latest_model)
+    except Exception as e:
+        show_error("Error loading model", f"Failed to load Rasa model: {e}")
+        return
     
     # Create the chatbot app
     app = AwesomeChatbotApp(root, rasa_agent)
