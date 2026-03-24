@@ -1,6 +1,6 @@
 import tkinter as tk
 import customtkinter as ctk
-from src.chatbot_app import AwesomeChatbotApp
+from chatbot_app import AwesomeChatbotApp
 import asyncio
 import os
 

@@ -10,10 +10,10 @@ import random
 import wikipedia
 import asyncio
 import os
-from src.chat_ui import ChatUI
-from src.voice_input import VoiceInput
-from src.emotion_detection import EmotionDetection
-from src.utils import load_image, confirm_exit, translate_text, perform_sentiment_analysis
+from chat_ui import ChatUI
+from voice_input import VoiceInput
+from emotion_detection import EmotionDetection
+from utils import load_image, confirm_exit, translate_text, perform_sentiment_analysis
 
 class AwesomeChatbotApp:
     def __init__(self, root, agent):
