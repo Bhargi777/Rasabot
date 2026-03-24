@@ -18,6 +18,7 @@ intents:
   - user_blushing
   - tease_user
   - user_asks_for_more
+  - nlu_fallback
 
 entities:
   - user_name
